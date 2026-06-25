@@ -1,3 +1,7 @@
 allowBuilds:
   sharp: true
   unrs-resolver: true
+
+overrides:
+  "next-auth": "file:../next-auth/packages/next-auth"
+  "@auth/core": "file:../next-auth/packages/core"
