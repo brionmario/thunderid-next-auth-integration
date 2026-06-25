@@ -2,6 +2,7 @@ allowBuilds:
   sharp: true
   unrs-resolver: true
 
-overrides:
-  "next-auth": "file:../next-auth/packages/next-auth"
-  "@auth/core": "file:../next-auth/packages/core"
+# For local development, you can override the next-auth and @auth/core packages to use the local versions instead of the published versions. Uncomment the following lines to enable this feature.
+# overrides:
+#   "next-auth": "file:../next-auth/packages/next-auth"
+#   "@auth/core": "file:../next-auth/packages/core"
